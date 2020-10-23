@@ -23,6 +23,11 @@ public class Main {
         // read response
         Boolean ans1 = reader.readLine().equals("Yep");
 
+        //TODO
+        // the reader should accept the following values as true:
+        // "true", "yes", "oh yeah", "great", "sure", "love to", "of course", "always", "never done otherwise"
+
+
         if (ans1) {
             writer.write(good);
         } else {
